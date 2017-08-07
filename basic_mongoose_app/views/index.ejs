@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Mongoose Fun!</title>
+    </head>
+    <body>
+        <h1>Your Users</h1>
+        <p><%= error %></p>
+        <ul>
+            <% for (user of users) { %>
+            <li>Name: <%= user.name %> Age: <%= user.age %></li>
+            <% } %>
+        </ul>
+        <form class="" action="/users" method="post">
+            <input type="text" name="name" value="" placeholder="name">
+            <label for="age">Age:</label>
+            <input id="age" type="number" name="age" value="">
+            <input type="submit" name="submit" value="submit">
+        </form>
+    </body>
+</html>
