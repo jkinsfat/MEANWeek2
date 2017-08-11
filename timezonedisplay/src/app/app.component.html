@@ -1,0 +1,9 @@
+<h1>US Timezone Display</h1>
+<ul>
+    <li><button (click)="castToPST()" [ngClass]="{'active': selectedButton == 'PST'}" type="button" name="PST">PST</button></li>
+    <li><button (click)="castToMST()" [ngClass]="{'active': selectedButton == 'MST'}" type="button" name="MST">MST</button></li>
+    <li><button (click)="castToCST()" [ngClass]="{'active': selectedButton == 'CST'}" type="button" name="CST">CST</button></li>
+    <li><button (click)="castToEST()" [ngClass]="{'active': selectedButton == 'EST'}" type="button" name="EST">EST</button></li>
+    <li><button (click)="clear()" type="button" name="Clear">Clear</button></li>
+</ul>
+<h2 [ngClass]="{'hello': true}">{{datetime | date : 'medium'}}</h2>

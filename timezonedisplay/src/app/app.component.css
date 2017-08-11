@@ -1,0 +1,22 @@
+.active {
+    background: rgb(233, 227, 85);
+}
+.hello {
+    color: red;
+}
+ul {
+    list-style: none;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+li {
+    margin-left: 50px;
+    display: inline-block;
+}
+button {
+    height: 100px;
+    width: 100px;
+}
+h2, h1 {
+    margin-left: 310px;
+}
