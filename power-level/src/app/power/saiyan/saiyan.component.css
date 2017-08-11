@@ -1,0 +1,15 @@
+div {
+    padding: 30px;
+    height: 100px;
+    width: 310px;
+    margin: 0 0 30px 40px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgb(228, 187, 63);
+    color: rgb(48, 61, 99);
+    vertical-align: top;
+}
+p {
+    margin-bottom: 0;
+}

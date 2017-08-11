@@ -1,0 +1,12 @@
+<form (submit)="calculatePower()">
+    <h2>Initial Power Level</h2>
+    <input type="number" [(ngModel)]="selectedLevel" name="powerLevel">
+    <input type="submit" name="submit" value="Calculate Power Level">
+</form>
+
+<app-saiyan [initial]="powerLevel" [multiplier]="1"></app-saiyan>
+<app-saiyan [initial]="powerLevel" [multiplier]="10"></app-saiyan>
+<app-saiyan [initial]="powerLevel" [multiplier]="90"></app-saiyan>
+<app-saiyan [initial]="powerLevel" [multiplier]="150"></app-saiyan>
+<app-saiyan [initial]="powerLevel" [multiplier]="250"></app-saiyan>
+<app-saiyan [initial]="powerLevel" [multiplier]="500"></app-saiyan>

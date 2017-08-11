@@ -1,0 +1,8 @@
+div {
+    height: 100px;
+    width: 500px;
+    margin: 50px;
+    display: inline-block;
+    background-color: rgb(228, 187, 63);
+    color: rgb(48, 61, 99);
+}
