@@ -1,0 +1,4 @@
+<app-note-form (submission)="reloadNotes()"></app-note-form>
+<div *ngFor="let note of notes">
+    <app-note-list-item [note]="note" (deletion)="reloadNotes()"></app-note-list-item>
+</div>

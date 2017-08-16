@@ -1,0 +1,7 @@
+p {
+  height: 50px;
+  width : 300px;
+  border: purple dotted 5px;
+  padding: 8px;
+  display: inline-block;
+}
